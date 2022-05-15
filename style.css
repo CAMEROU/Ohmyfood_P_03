@@ -11,6 +11,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+main {
+  padding: 0 2rem;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   font-family: "Shrikhand", "cursive";
   text-align: center;
@@ -29,34 +35,35 @@ header {
   padding: 0.6rem;
   gap: 2rem;
 }
-
 .location i {
   font-size: 3rem;
 }
-
-.resto h1 {
-  font-size: 5rem;
+.location .resto h1 {
+  font-size: 6rem;
 }
-
 .location h2 {
   font-size: 3rem;
   margin-top: 2rem;
+}
+.location .resto h1 {
+  font-size: 6rem;
+}
+
+.resto h1 {
+  font-size: 6rem;
 }
 
 #decouverte {
   text-align: center;
 }
-
 #decouverte h2 {
-  font-size: 3.4rem;
+  font-size: 3rem;
   margin-top: 2rem;
 }
-
 #decouverte p {
-  font-size: 2.6rem;
+  font-size: 3rem;
 }
-
-button {
+#decouverte button {
   background-image: linear-gradient(#FF79DA, #9356DC);
   width: 35rem;
   height: 8rem;
@@ -67,12 +74,32 @@ button {
   align-items: center;
   justify-content: center;
   padding: 0.8rem;
+  margin-top: 2.5rem;
+}
+#decouverte button a {
+  font-size: 2.5rem;
+}
+#decouverte button:hover {
+  transform: scale(1.04);
+  opacity: 0.9;
 }
 
-button a {
-  font-size: 2.2rem;
+.fonction ol {
+  display: flex;
+  flex-wrap: wrap;
+  /*  border: 1px solid bleu;*/
+  gap: 2rem;
 }
-
-button {
-  transform: scale(1.03);
+@media (max-width: 800px) {
+  .fonction {
+    flex-direction: column;
+  }
+}
+.fonction li {
+  background-color: #f6f6f6;
+  padding: 1.5rem 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 0.5rem rgb(165, 165, 161);
+  font-size: 2.3rem;
+  flex-grow: 1;
 }/*# sourceMappingURL=style.css.map */

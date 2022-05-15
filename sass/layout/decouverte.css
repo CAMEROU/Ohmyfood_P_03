@@ -1,0 +1,30 @@
+#decouverte {
+  text-align: center;
+}
+#decouverte h2 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+#decouverte p {
+  font-size: 3rem;
+}
+#decouverte button {
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  width: 35rem;
+  height: 8rem;
+  color: white;
+  border-radius: 5rem;
+  border: none;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+  margin-top: 2.5rem;
+}
+#decouverte button a {
+  font-size: 2.5rem;
+}
+#decouverte button:hover {
+  transform: scale(1.04);
+  opacity: 0.9;
+}/*# sourceMappingURL=decouverte.css.map */

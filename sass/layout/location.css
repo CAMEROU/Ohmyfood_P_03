@@ -1,0 +1,27 @@
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #f3f3f3;
+  padding: 0.6rem;
+  gap: 2rem;
+}
+.location i {
+  font-size: 3rem;
+}
+.location .resto h1 {
+  font-size: 6rem;
+}
+.location h2 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+.location .resto h1 {
+  font-size: 6rem;
+}
+
+.resto h1 {
+  font-size: 6rem;
+}/*# sourceMappingURL=location.css.map */

@@ -1,0 +1,25 @@
+
+
+.fonction{
+
+    ol{
+    display: flex;
+    flex-wrap: wrap;
+      /*  border: 1px solid bleu;*/
+        gap: 2rem;
+    }
+    
+@media (max-width: 800px) {
+    flex-direction: column;
+}
+    li{
+        background-color: #f6f6f6;
+        padding: 1.5rem 2rem;
+        border-radius: 2rem;
+        box-shadow: 0 0 0.5rem rgb(165, 165, 161);
+        font-size: 2.3rem;
+        flex-grow: 1;
+    }
+
+    
+}
