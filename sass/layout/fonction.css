@@ -1,19 +1,50 @@
 .fonction ol {
   display: flex;
   flex-wrap: wrap;
-  /*  border: 1px solid bleu;*/
-  gap: 2rem;
+  flex-direction: row;
+  gap: 8rem;
 }
+
 @media (max-width: 800px) {
-  .fonction {
+  ol {
     flex-direction: column;
   }
 }
-.fonction li {
+li {
+  list-style-type: none;
   background-color: #f6f6f6;
-  padding: 1.5rem 2rem;
-  border-radius: 2rem;
-  box-shadow: 0 0 0.5rem rgb(165, 165, 161);
-  font-size: 2.3rem;
   flex-grow: 1;
+  padding: 1.5rem 2rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 0.5rem rgb(165, 165, 161);
+  padding: 3rem;
+  place-items: center;
+}
+li ::before {
+  place-items: center;
+}
+li .un {
+  background-color: purple;
+  color: white;
+  height: 3.5rem;
+  width: 3.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  position: relative;
+  right: 5rem;
+  margin-bottom: -3rem;
+  align-items: center;
+}
+li .choix {
+  margin-left: 10rem;
+  font-size: 3rem;
+}
+li i {
+  font-size: 3.5rem;
+  margin-left: 3rem;
+  position: fixed;
+}
+li .fonction li:hover {
+  transform: scale(1.04);
 }/*# sourceMappingURL=fonction.css.map */

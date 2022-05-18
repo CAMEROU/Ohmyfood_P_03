@@ -1,12 +1,14 @@
 #decouverte {
   text-align: center;
+  background: color #f6f6f6;
+  padding: 8rem;
 }
 #decouverte h2 {
   font-size: 3rem;
   margin-top: 2rem;
 }
 #decouverte p {
-  font-size: 3rem;
+  font-size: 3.2rem;
 }
 #decouverte button {
   background-image: linear-gradient(#FF79DA, #9356DC);
